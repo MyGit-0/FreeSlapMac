@@ -1,5 +1,16 @@
 # FreeSlapMac
 
+I saw the trend that people were slapping their macs and I wanted to try it myself. I looked around and didn't quite find a free version that is also easy to install so I decided to create an open-source version of it. 
+
+I also added a new functionality to it called RageQuit which I'm currently working on, the idea is that it will lock your Mac and play a calming sound whenever it detects a sudden shock (for example smashing your table).
+
+Feel free to try the app, I'd be happy to know if you encountred any bugs and have new ideas how we can make use of these snesors.
+
+Have fun out there and don't break your Macs ;-).
+
+I would appreciate a coffee.
+
+#''''''''
 A free, open menu-bar app inspired by [slapmac.com](https://slapmac.com/). Slap your Apple Silicon MacBook, it yells back. Need a break? Hit **Rage Quit** and the Mac locks itself while a relaxing track plays.
 
 Detection technique is borrowed from [taigrr/spank](https://github.com/taigrr/spank): read the IMU accelerometer directly over IOKit HID, then run an STA/LTA + peak/MAD pipeline to distinguish a real impact from everyday vibration.
