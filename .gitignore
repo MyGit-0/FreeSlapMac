@@ -1,0 +1,41 @@
+# macOS
+.DS_Store
+
+# Swift Package Manager
+.build/
+.swiftpm/
+
+# Xcode user-specific files
+xcuserdata/
+*.xcuserstate
+*.xcscmblueprint
+*.xccheckout
+*.moved-aside
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+*.xcodeproj/project.xcworkspace/xcuserdata/
+*.xcworkspace/xcuserdata/
+
+# Build and packaging outputs
+build/
+*.app
+*.dSYM
+*.dmg
+*.pkg
+
+# Logs and temporary files
+*.log
+*.swp
+*.swo
+*.tmp
+*.orig
+
+# Editors
+.idea/
+.vscode/
