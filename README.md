@@ -106,6 +106,9 @@ xcrun stapler staple build/FreeSlapMac.dmg
 - Sparkle auto-update
 - Homebrew cask
 
+## Buy me a Koffee
+https://ko-fi.com/amir0
+
 ## Credits
 
 - Detection approach & accelerometer reverse-engineering: [taigrr/spank](https://github.com/taigrr/spank)
